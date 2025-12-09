@@ -17,14 +17,9 @@
     combos {
         compatible = "zmk,combos";
 
-        shift_tab {
-            bindings = <&kp LANG2>;
-            key-positions = <12 13>;
-        };
-
-        lang {
-            bindings = <&kp LANG1>;
-            key-positions = <18 19>;
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
         };
     };
 
@@ -151,6 +146,15 @@
 &trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                          &trans
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        Adjust {
+            if-layers = <8 9>;
+            then-layer = <10>;
         };
     };
 };
