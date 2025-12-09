@@ -45,9 +45,9 @@
         Mac_Base {
             bindings = <
 &kp Q             &kp W         &kp E               &kp R       &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D               &lt 6 F     &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
+&kp A             &kp S         &kp D               &lt 8 F     &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
 &kp Z             &kp X         &kp C               &kp V       &kp B        &kp LC(Z)        &kp UNDER      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &kp LSHIFT  &lt 4 LANG1  &lt 1 SPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp ESC
+&kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &kp LSHIFT  &lt 6 LANG1  &lt 1 SPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp ESC
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -65,9 +65,9 @@
         Win_Base {
             bindings = <
 &kp Q         &kp W         &kp E                   &kp R       &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A         &kp S         &kp D                   &lt 6 F     &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
+&kp A         &kp S         &kp D                   &lt 8 F     &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
 &kp Z         &kp X         &kp C                   &kp V       &kp B        &kp LC(Z)        &kp UNDER      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_CONTROL LANG2  &kp LSHIFT  &lt 4 LANG1  &lt 1 SPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp ESC
+&kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_CONTROL LANG2  &kp LSHIFT  &lt 6 LANG1  &lt 1 SPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp ESC
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -79,6 +79,26 @@
 &trans  &kp LC(LG(LEFT))  &kp LS(LC(A))  &kp LC(LG(RIGHT))  &kp SPACE       &trans      &trans  &kp LC(F7)  &kp LG(LEFT)  &kp LG(D)          &kp LG(RIGHT)  &kp LG(UP)
 &trans  &kp LA(LEFT)      &trans         &kp LA(RIGHT)      &kp LG(PERIOD)  &trans      &trans  &kp LC(F8)  &trans        &kp LS(LG(RIGHT))  &trans         &trans
 &trans  &trans            &trans         &trans             &trans          &trans      &trans  &trans                                                      &trans
+            >;
+        };
+
+        And_Base {
+            bindings = <
+&kp Q         &kp W         &kp E                   &kp R       &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A         &kp S         &kp D                   &lt 8 F     &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
+&kp Z         &kp X         &kp C                   &kp V       &kp B        &kp LC(Z)        &kp UNDER      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_CONTROL LANG2  &kp LSHIFT  &lt 6 LANG1  &lt 1 SPACE      &kp BACKSPACE  &lt 1 ENTER                             &kp ESC
+            >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
+        };
+
+        And_Win {
+            bindings = <
+&trans  &kp LC(LS(TAB))   &kp LG(TAB)    &kp LC(TAB)        &kp LC(U)                      &trans     &trans            &trans            &trans             &trans
+&trans  &kp LC(LG(LEFT))  &kp LS(LC(A))  &kp LC(LG(RIGHT))  &kp SPACE  &trans      &trans  &kp LC(I)  &kp LG(LC(LEFT))  &kp LG(H)         &kp LG(LC(RIGHT))  &kp LG(LC(UP))
+&trans  &kp LA(LEFT)      &trans         &kp LA(RIGHT)      &trans     &trans      &trans  &kp LC(O)  &trans            &kp LG(LC(DOWN))  &trans             &trans
+&trans  &trans            &trans         &trans             &trans     &trans      &trans  &trans                                                            &trans
             >;
         };
 
