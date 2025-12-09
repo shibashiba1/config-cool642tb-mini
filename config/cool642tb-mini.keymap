@@ -134,11 +134,13 @@
 
         Func {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+&kp HOME  &trans          &trans          &trans           &trans                      &trans  &trans    &trans    &trans     &kp PRINTSCREEN
+&trans    &trans          &msc SCRL_UP    &trans           &trans  &trans      &trans  &trans  &mkp MB1  &kp UP    &mkp MB2   &trans
+&trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans      &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&kp END   &trans          &trans          &trans           &trans  &trans      &trans  &trans                                 &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Adjust {
