@@ -104,7 +104,7 @@
 
         Win_Win {
             bindings = <
-&trans  &kp LC(LS(TAB))   &kp LC(UP)     &kp LC(TAB)        &kp LG(SLASH)                       &trans      &trans        &trans             &trans         &trans
+&trans  &kp LC(LS(TAB))   &kp LG(TAB)    &kp LC(TAB)        &kp LG(SLASH)                       &trans      &trans        &trans             &trans         &trans
 &trans  &kp LC(LG(LEFT))  &kp LS(LC(A))  &kp LC(LG(RIGHT))  &kp SPACE       &trans      &trans  &kp LC(F7)  &kp LG(LEFT)  &kp LG(D)          &kp LG(RIGHT)  &kp LG(UP)
 &trans  &kp LA(LEFT)      &trans         &kp LA(RIGHT)      &kp LG(PERIOD)  &trans      &trans  &kp LC(F8)  &trans        &kp LS(LG(RIGHT))  &trans         &trans
 &trans  &trans            &trans         &trans             &trans          &trans      &trans  &trans                                                      &trans
