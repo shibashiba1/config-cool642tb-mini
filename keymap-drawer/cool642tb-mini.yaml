@@ -1,0 +1,489 @@
+layout: {zmk_keyboard: cool642tb-mini}
+layers:
+  Mac_Base:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - {t: F, h: Func}
+  - G
+  - MUTE
+  - '-'
+  - H
+  - J
+  - K
+  - L
+  - RSHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - Ctl+Z
+  - _
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT CONTROL
+  - LEFT ALT
+  - {t: LANG2, h: LEFT GUI}
+  - LSHIFT
+  - {t: LANG1, h: SymNum}
+  - {t: SPACE, h: Mac_Win}
+  - BACKSPACE
+  - {t: ENTER, h: Func}
+  - ESC
+  Mac_Win:
+  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
+  - Ctl+UP
+  - Ctl+TAB
+  - Ctl+J
+  - Alt+Ctl+D
+  - Alt+Ctl+E
+  - Alt+Ctl+F
+  - Alt+Ctl+T
+  - Alt+Ctl+G
+  - {t: ▽, type: trans}
+  - Ctl+LEFT
+  - Sft+Gui+T
+  - Ctl+RIGHT
+  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+K
+  - Alt+Ctl+LEFT
+  - F11
+  - Alt+Ctl+RIGHT
+  - Alt+Ctl+ENTER
+  - {t: ▽, type: trans}
+  - Gui+LEFT
+  - Ctl+DOWN
+  - Gui+RIGHT
+  - Gui+Ctl+SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+;
+  - {t: ▽, type: trans}
+  - F19
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Win_Base:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - {t: F, h: Func}
+  - G
+  - MUTE
+  - '-'
+  - H
+  - J
+  - K
+  - L
+  - RSHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - Ctl+Z
+  - _
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT GUI
+  - LEFT ALT
+  - {t: LANG2, h: LEFT CONTROL}
+  - LSHIFT
+  - {t: LANG1, h: SymNum}
+  - {t: SPACE, h: Win_Win}
+  - BACKSPACE
+  - {t: ENTER, h: Func}
+  - ESC
+  Win_Win:
+  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
+  - Gui+TAB
+  - Ctl+TAB
+  - Gui+/
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Gui+LEFT
+  - Sft+Ctl+A
+  - Ctl+Gui+RIGHT
+  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+F7
+  - Gui+LEFT
+  - Gui+D
+  - Gui+RIGHT
+  - Gui+UP
+  - {t: ▽, type: trans}
+  - Alt+LEFT
+  - {t: ▽, type: trans}
+  - Alt+RIGHT
+  - Gui+.
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+F8
+  - {t: ▽, type: trans}
+  - Sft+Gui+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  And_Base:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - {t: F, h: Func}
+  - G
+  - MUTE
+  - '-'
+  - H
+  - J
+  - K
+  - L
+  - RSHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - Ctl+Z
+  - _
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT GUI
+  - LEFT ALT
+  - {t: LANG2, h: LEFT CONTROL}
+  - LSHIFT
+  - {t: LANG1, h: SymNum}
+  - {t: SPACE, h: And_Win}
+  - BACKSPACE
+  - {t: ENTER, h: Func}
+  - ESC
+  And_Win:
+  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
+  - Gui+TAB
+  - Ctl+TAB
+  - Ctl+U
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Gui+LEFT
+  - Sft+Ctl+A
+  - Ctl+Gui+RIGHT
+  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+I
+  - Gui+Ctl+LEFT
+  - Gui+H
+  - Gui+Ctl+RIGHT
+  - Gui+Ctl+UP
+  - {t: ▽, type: trans}
+  - Alt+LEFT
+  - {t: ▽, type: trans}
+  - Alt+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+O
+  - {t: ▽, type: trans}
+  - Gui+Ctl+DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Pad_Base:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - {t: F, h: Func}
+  - G
+  - MUTE
+  - '-'
+  - H
+  - J
+  - K
+  - L
+  - RSHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - Ctl+Z
+  - _
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT CONTROL
+  - LEFT ALT
+  - {t: LANG2, h: LEFT GUI}
+  - LSHIFT
+  - {t: LANG1, h: SymNum}
+  - {t: SPACE, h: Pad_Win}
+  - BACKSPACE
+  - {t: ENTER, h: Func}
+  - ESC
+  Pad_Win:
+  - {t: ▽, type: trans}
+  - Ctl+Sft+TAB
+  - Ctl+UP
+  - Ctl+TAB
+  - Gui+Z
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+LEFT
+  - Sft+Gui+T
+  - Ctl+RIGHT
+  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+K
+  - Alt+Ctl+LEFT
+  - F11
+  - Alt+Ctl+RIGHT
+  - Alt+Ctl+ENTER
+  - {t: ▽, type: trans}
+  - Gui+LEFT
+  - Ctl+DOWN
+  - Gui+RIGHT
+  - Gui+Ctl+SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SymNum:
+  - Sft+;
+  - Sft+'
+  - Sft+`
+  - Sft+1
+  - Sft+/
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - \
+  - Sft+7
+  - Sft+3
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '*'
+  - '4'
+  - '5'
+  - '6'
+  - Sft+=
+  - Sft+4
+  - Sft+2
+  - Sft+5
+  - Sft+9
+  - Sft+0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - ','
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - DEL
+  - {t: ▽, type: trans}
+  - '='
+  Func:
+  - HOME
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_UP'
+  - {type: held}
+  - {t: ▽, type: trans}
+  - MUTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - UP
+  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Adjust:
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bt_mac'
+  - '&bt_win'
+  - '&bt_and'
+  - {t: '&bt_pad', type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [11, 12]
+  k: TAB
