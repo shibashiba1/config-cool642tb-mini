@@ -14,7 +14,7 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: Func}
+  - F
   - G
   - MUTE
   - '-'
@@ -102,7 +102,7 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: Func}
+  - F
   - G
   - MUTE
   - '-'
@@ -190,7 +190,7 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: Func}
+  - F
   - G
   - MUTE
   - '-'
@@ -278,7 +278,7 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: Func}
+  - F
   - G
   - MUTE
   - '-'
@@ -410,7 +410,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&msc SCRL_UP'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - MUTE
   - {t: ▽, type: trans}
@@ -438,7 +438,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   Adjust:
   - {t: BT, h: '0'}
@@ -454,7 +454,7 @@ layers:
   - '&bt_mac'
   - '&bt_win'
   - '&bt_and'
-  - {t: '&bt_pad', type: held}
+  - '&bt_pad'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -482,7 +482,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [11, 12]
