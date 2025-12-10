@@ -1,3 +1,3 @@
-cool642tb_mini専用ファームウェアリポジトリ
-forkしてから使用してください。
+## Keymap (cool642tb-mini)
 
+![cool642tb-mini keymap](keymap-drawer/cool642tb-mini.svg)
