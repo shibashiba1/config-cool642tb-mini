@@ -74,7 +74,7 @@
         Mac_Base {
             bindings = <
 &kp Q             &kp W         &kp E               &kp R       &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D               &lt 9 F     &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
+&kp A             &kp S         &kp D               &kp F       &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
 &kp Z             &kp X         &kp C               &kp V       &kp B        &kp LC(Z)        &kp UNDER      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &kp LSHIFT  &lt 8 LANG1  &lt 1 SPACE      &kp BACKSPACE  &lt 9 ENTER                             &kp ESC
             >;
@@ -94,7 +94,7 @@
         Win_Base {
             bindings = <
 &kp Q         &kp W         &kp E                   &kp R       &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A         &kp S         &kp D                   &lt 9 F     &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
+&kp A         &kp S         &kp D                   &kp F       &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
 &kp Z         &kp X         &kp C                   &kp V       &kp B        &kp LC(Z)        &kp UNDER      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_CONTROL LANG2  &kp LSHIFT  &lt 8 LANG1  &lt 3 SPACE      &kp BACKSPACE  &lt 9 ENTER                             &kp ESC
             >;
@@ -114,7 +114,7 @@
         And_Base {
             bindings = <
 &kp Q         &kp W         &kp E                   &kp R       &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A         &kp S         &kp D                   &lt 9 F     &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
+&kp A         &kp S         &kp D                   &kp F       &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
 &kp Z         &kp X         &kp C                   &kp V       &kp B        &kp LC(Z)        &kp UNDER      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_GUI  &kp LEFT_ALT  &mt LEFT_CONTROL LANG2  &kp LSHIFT  &lt 8 LANG1  &lt 5 SPACE      &kp BACKSPACE  &lt 9 ENTER                             &kp ESC
             >;
@@ -134,7 +134,7 @@
         Pad_Base {
             bindings = <
 &kp Q             &kp W         &kp E               &kp R       &kp T                                        &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D               &lt 9 F     &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
+&kp A             &kp S         &kp D               &kp F       &kp G        &kp K_MUTE       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp RSHIFT
 &kp Z             &kp X         &kp C               &kp V       &kp B        &kp LC(Z)        &kp UNDER      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &kp LSHIFT  &lt 8 LANG1  &lt 7 SPACE      &kp BACKSPACE  &lt 9 ENTER                             &kp ESC
             >;
